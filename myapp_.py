@@ -31,8 +31,7 @@ with st.sidebar:
 age = st.sidebar.number_input("What is the age of your car:", 0,1,2,3) 
 hp_kw = st.sidebar.slider("What is the Horse Power of your car:", 60, 360, step=6)
 km = st.sidebar.slider(" What is the km for your car:",0, 350000, step=5000)
-Gearing_Type = st.sidebar.radio(
-    "Gearing Type", ("Manual", "Automatic", "Semi-automatic"))
+Gearing_Type = st.sidebar.radio("Gearing Type", ("Manual", "Automatic", "Semi-automatic"))
 car_model = st.sidebar.selectbox("Model Selection", ("Audi A3", "Audi A1", "Opel Insignia",
                                  "Opel Astra", "Opel Corsa", "Renault Clio", "Renault Espace", "Renault Duster"))
 
